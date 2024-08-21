@@ -1,0 +1,22 @@
+
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+
+
+}
+
+.hero {
+    flex: 1 1 33%;
+    margin: 10px;
+    justify-content: left;
+
+
+}
+
+#root {
+
+    padding-left: 20vw;
+}
